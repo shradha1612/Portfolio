@@ -1,5 +1,6 @@
 .nav-theme{
-    background-color: black;
+    /* background-color: black; */
+    background-color: transparent;
 }
 .animate-navbar {
     box-shadow: 1px 1px 1px #222;

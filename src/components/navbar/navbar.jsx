@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css'
 import {Navbar,Nav } from 'react-bootstrap'
 
-
 function Mynavbar() {
     return (
         <>
