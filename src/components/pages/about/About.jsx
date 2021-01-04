@@ -4,27 +4,52 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
 import Profile from '../../assets/Profile.jpg'
-
+import Button from 'react-bootstrap/Button'
+import Slide from 'react-reveal/Slide';
+import './About.css'
 const About = () => {
     return (
         <>
         <div id="about">
-            <h1>About Me</h1>
-            <Container>
-                <Row>
+        <div className="about">
+            <h1 className='pt-3 text-center pb-3'>About Me</h1>
+            <Container className="cardcontainer">
+                <Row className="pt-3 pb-5 align-items-center">
                     {/* profile pic */}
                     <Col xs={12} md={6}>
-                    <Row>
-                    <Image src={Profile} thumbnail />
+                    <Row className="justify-content-center mb-2 mr-2">
+                    <Slide left>
+                    <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid/>
+                    </Slide>
                     </Row>
                     </Col>
                     {/* About description */}
                     <Col xs={12} md={6}>
-                        <h1>gjyvfthc</h1>
+                        <Row className="align-items-start p-2 my-details rounded" >
+                            <Slide right>
+                            <h1>Hi, I am Shradha Parkhi</h1>
+                            <p>I am an Enthusiast Web developer.Learning new tech skills<br/> and sharing is what i love.
+                            <br/>  I am having interest in full stack MERN development.<br/>
+                                original information content of a particular piece of writing; that is, the "text" of a
+                                work is that primal symbolic arrangement of letters as originally composed, apart from later
+                                alterations, deterioration, commentary, translations, paratext, etc.</p>
+                                </Slide>
+                        </Row>
+                        <Row>
+                            <Col className="d-flex justify-content-center flex-wrap" >
+                            <div>
+                                <a href="https://www.linkedin.com/in/shradha-parkhi-06054b191/" className="m-2"><Button className="info">Connect with me</Button></a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/shradha-parkhi-06054b191/" className="m-2" ><Button variant="dark">Download my resume</Button></a>
+                            </div>
+                            </Col>
+                        </Row>
                     </Col>
                     
                 </Row>
             </Container>
+        </div>
         </div>
             
         </>
