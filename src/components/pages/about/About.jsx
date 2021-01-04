@@ -11,10 +11,10 @@ const About = () => {
     return (
         <>
         <div id="about">
-        <div className="about">
+        <div className="about pb-5">
             <h1 className='pt-3 text-center pb-3'>About Me</h1>
             <Container className="cardcontainer">
-                <Row className="pt-3 pb-5 align-items-center">
+                <Row className="pt-5 pb-5 align-items-center">
                     {/* profile pic */}
                     <Col xs={12} md={6}>
                     <Row className="justify-content-center mb-2 mr-2">
@@ -25,11 +25,11 @@ const About = () => {
                     </Col>
                     {/* About description */}
                     <Col xs={12} md={6}>
-                        <Row className="align-items-start p-2 my-details rounded" >
+                        <Row className="align-items-start p-2 pr-5 my-details rounded" >
                             <Slide right>
                             <h1>Hi, I am Shradha Parkhi</h1>
-                            <p>I am an Enthusiast Web developer.Learning new tech skills<br/> and sharing is what i love.
-                            <br/>  I am having interest in full stack MERN development.<br/>
+                            <p>I am an Enthusiast Web developer.Learning new tech skills
+                            <br/> I am an Enthusiast Web developer.Learning new tech<br/>I am an Enthusiast Web developer.Learning new tech .<br/>
                                 original information content of a particular piece of writing; that is, the "text" of a
                                 work is that primal symbolic arrangement of letters as originally composed, apart from later
                                 alterations, deterioration, commentary, translations, paratext, etc.</p>
