@@ -6,7 +6,7 @@ import SocialMedia from '../SocialMedia/SocialMedia';
  
 
 
-function Container() {
+function Home() {
     return (
        <>
        <div className="homepage">
@@ -30,4 +30,4 @@ function Container() {
     )
 }
 
-export default Container
+export default Home;

@@ -1,9 +1,11 @@
 .about{
     /* background-color: transparent; */
-    background-color: rgb(197, 243, 104);
+    background-color: rgb(56, 120, 124);
     font-size: 1.1em;
 }
-
+/* .fo{
+    color: cornsilk;
+} */
 .profile{
     max-width: 18em;
 }
@@ -12,5 +14,6 @@
     background-attachment: rgba(255,255,255,0.747);
 }
 .cardcontainer{
+    /* background-color: rgb(56, 120, 124); */
     background-color: white;
 }
