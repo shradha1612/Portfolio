@@ -56,7 +56,7 @@ const Techskills = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              </Col>
+            </Col>
               <Col md={6}>
               <Card className="focus mt-2 mb-2">
                 <Card.Body>

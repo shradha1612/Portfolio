@@ -1,13 +1,24 @@
-import React from 'react';
+import React,{useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css'
 import {Navbar,Nav } from 'react-bootstrap'
 
+
 function Mynavbar() {
+//   const[navba,setNavba]= useState(false);
+//   const changebackgroundnav=()=>{
+//     if(window.scrollY >= 180){
+//       setNavba(true)
+//     }else{
+//       setNavba(false)
+//     }
+//   }
+// window.addEventListener('scroll',changebackgroundnav)
+
     return (
         <>
-             <div className="App">
-      <Navbar fixed="top" collapseOnSelect expand="md"   variant="dark" className="animate-navbar nav-theme justify-content-between">
+      {/* <div className="App" className={navba ? 'navbar active' : 'nav-theme'}> */}
+    <Navbar fixed="top" collapseOnSelect expand="md"  variant="dark" className="animate-navbar nav-theme justify-content-between ">
   <Navbar.Brand href="#home">
       <h2>Shradha Parkhi</h2>
   </Navbar.Brand>
@@ -25,9 +36,9 @@ function Mynavbar() {
     
   </Navbar.Collapse>
 </Navbar>
-    </div>
+{/* </div> */}
         </>
     )
 }
 
-export default Mynavbar
+export default Mynavbar;

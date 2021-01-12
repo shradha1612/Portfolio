@@ -1,7 +1,12 @@
 .nav-theme{
     /* background-color: black; */
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: black;
+    transition: 500ms ease;
 }
+/* .navbar .active{
+  background-color: red;
+} */
 .animate-navbar {
     box-shadow: 1px 1px 1px #222;
     animation: moveDown 0.5s ease-in-out;
