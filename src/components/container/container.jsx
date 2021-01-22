@@ -9,8 +9,10 @@ import SocialMedia from '../SocialMedia/SocialMedia';
 function Home() {
     return (
        <>
-       <div className="homepage">
+       <div className="homepage" id="main">
+           {/* <div className="parallaxfix"> */}
        <img src={slide}/>
+           {/* </div> */}
        <div className="centered">
            <div className="greetings">Hi, I am Shradha Parkhi</div>
            <div className="typewriter" style={{paddingBottom:"20px"}}>

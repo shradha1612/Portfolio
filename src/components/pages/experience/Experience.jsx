@@ -1,17 +1,13 @@
 import React from 'react';
-// import {Link} from 'react-router-dom'
-// import AddIcon from '@material-ui/icons/Add';
-// import StarIcon from '@material-ui/icons/Star';
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
 import Button from '@material-ui/core/Button';
-// import Fab from '@material-ui/core/Fab';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 const Experience =()=> {
     return (
         <>
-        <div style={{background:"#2d7a80"}}>
+        <div style={{background:"#2d7a80"}} id="experience">
         <div>
             <h1 className='pt-3 text-center pb-3' >Internship and qualification</h1>
         </div>
@@ -63,11 +59,6 @@ const Experience =()=> {
     <p>
     </p>
   </VerticalTimelineElement>
- 
-  {/* <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-    icon={<StarIcon />}
-  /> */}
 </VerticalTimeline>
 </div>
         </>

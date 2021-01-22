@@ -12,7 +12,7 @@ import Container from "react-bootstrap/Container";
 import "./Project.css";
 const Project = () => {
   return (
-    <div className="projectcontainer">
+    <div className="projectcontainer" id="projects">
       <div>
         <h1 className="pt-3 text-center pb-3">Projects</h1>
       </div>

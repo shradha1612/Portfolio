@@ -27,7 +27,7 @@ function sendEmail(e) {
 
 const Contact = () => {
   return (
-    <div className="contactsection">
+    <div className="contactsection" id="contact">
       <div>
         <h1 className="pt-3 text-center pb-3" style={{ color: "black" }}>
           Reach out to me!
