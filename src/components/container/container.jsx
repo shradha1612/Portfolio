@@ -14,7 +14,25 @@ function Home() {
 
        <img src={slide}/>
            {/* </div> */}
-
+           {/* <Particles 
+                params={{
+                    "particles":{
+                        "number":{
+                            "value":50
+                        },
+                        "size":{
+                            "value":3
+                        }
+                    },
+                    "interactivity":{
+                        "events":{
+                            "onhover":{
+                                "enable":true,
+                                "mode":"repulse"
+                            }
+                        }
+                    }
+                }} /> */}
        <div className="centered">
            <div className="greetings">Hi, I am Shradha Parkhi</div>
            <div className="typewriter" style={{paddingBottom:"20px"}}>
