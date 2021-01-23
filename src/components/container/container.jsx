@@ -4,15 +4,17 @@ import './container.css';
 import Typewriter from 'typewriter-effect';
 import SocialMedia from '../SocialMedia/SocialMedia';
  
-
+// import Particles from 'react-particles-js';
 
 function Home() {
     return (
        <>
        <div className="homepage" id="main">
            {/* <div className="parallaxfix"> */}
+
        <img src={slide}/>
            {/* </div> */}
+
        <div className="centered">
            <div className="greetings">Hi, I am Shradha Parkhi</div>
            <div className="typewriter" style={{paddingBottom:"20px"}}>
