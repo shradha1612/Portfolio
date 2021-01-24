@@ -9,7 +9,7 @@ const Experience =()=> {
         <>
         <div style={{background:"#2d7a80"}} id="experience">
         <div>
-            <h1 className='pt-3 text-center pb-3' >Internship and qualification</h1>
+            <h1 className='pt-3 text-center pb-3' >Internships and qualification</h1>
         </div>
         <VerticalTimeline>
   <VerticalTimelineElement
@@ -55,7 +55,7 @@ const Experience =()=> {
     icon={<SchoolIcon />}
   >
     <h3 className="vertical-timeline-element-title">Electronics and telecommunication engineering</h3>
-    <h2 className="vertical-timeline-element-subtitle">At Sinhgad institute of technology,Lonavala</h2>
+    <h2 className="vertical-timeline-element-subtitle">At Sinhgad institute of technology,<br/>Lonavala</h2>
     <p>
     </p>
   </VerticalTimelineElement>

@@ -3,9 +3,11 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
-import sadda from '../../assets/sadda.jpg'
+import sadda from '../../assets/Profile.jpg'
 import Button from 'react-bootstrap/Button'
 import Slide from 'react-reveal/Slide';
+
+// import emoji from 'react-easy-emoji';
 import './About.css'
 const About = () => {
     return (
@@ -28,18 +30,24 @@ const About = () => {
                         <Row className="align-items-start p-2 pr-5 my-details rounded" >
                             <Slide right>
                                 <div className="fo">
-                            <h1>Hi, I am Shradha Parkhi</h1>
-                            <p>I am an Enthusiast Web developer.Learning new tech skills
-                            <br/> I am an Enthusiast Web developer.Learning new tech<br/>I am an Enthusiast Web developer.Learning new tech .<br/>
-                                original information content of a particular piece of writing; that is, the "text" of a
-                                work is that primal symbolic arrangement of letters as originally composed, apart from later
-                                alterations, deterioration, commentary, translations, paratext, etc.</p></div>
+                            <h1>Hey, I am Shradha Parkhi</h1>
+                            <h5 style={{color:"gray"}}>An Enthusiast web developer and a learner who is passionate about web technologies and building web applications.
+                            <br/>Apart from programming I love singing an listening music. I used to write tech blogs sometimes. <br/></h5></div>
                                 </Slide>
                         </Row>
                         <Row>
                             <Col className="d-flex justify-content-center flex-wrap" >
                             <div>
-                                <a href="https://www.linkedin.com/in/shradha-parkhi-06054b191/" className="m-2"><Button className="info">Connect with me</Button></a>
+                                <a href="https://www.linkedin.com/in/shradha-parkhi-06054b191/" className="m-2">
+                                <style type="text/css">
+    {`
+    .btn-flat {
+      background-color:  rgb(56, 120, 124);
+      color: white;
+    }
+    `}
+  </style>
+                                    <Button variant="flat" className="info">Connect with me</Button></a>
                             </div>
                             <div>
                                 <a href="https://www.linkedin.com/in/shradha-parkhi-06054b191/" className="m-2" ><Button variant="dark">Download my resume</Button></a>

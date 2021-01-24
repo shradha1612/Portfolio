@@ -3,6 +3,7 @@ import slide from '../../components/themes/lightbulb.jpg';
 import './container.css';
 import Typewriter from 'typewriter-effect';
 import SocialMedia from '../SocialMedia/SocialMedia';
+import emoji from 'react-easy-emoji';
  
 // import Particles from 'react-particles-js';
 
@@ -34,7 +35,10 @@ function Home() {
                     }
                 }} /> */}
        <div className="centered">
-           <div className="greetings">Hi, I am Shradha Parkhi</div>
+           <div className="greetings">
+               Hi, I am Shradha Parkhi <span className="wave-emoji">{emoji('👋')}</span>
+
+           </div>
            <div className="typewriter" style={{paddingBottom:"20px"}}>
            <Typewriter
         options={{
@@ -45,7 +49,6 @@ function Home() {
        />
         </div>
         <SocialMedia/>
-       
        </div>
        </div>
        </>

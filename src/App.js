@@ -8,6 +8,7 @@ import Techskills from './components/pages/techskills/Techskills';
 import Project from './components/pages/projects/Project';
 import Contact from './components/pages/contact/Contact';
 import { Footer } from './components/pages/footer/Footer';
+import Blogs from './components/pages/Blogs/Blogs';
 
 
 
@@ -20,6 +21,7 @@ function App() {
    <Techskills/>
    <Experience/>
    <Project/>
+   <Blogs/>
    <Contact/>
    <Footer/>
    </>
