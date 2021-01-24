@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <div className="contactsection" id="contact">
       <div>
-        <h1 className="pt-3 text-center pb-3" style={{ color: "black" }}>
+        <h1 className="pt-3 text-center pb-3" style={{ color: "white" }} >
           Reach out to me!
         </h1>
       </div>

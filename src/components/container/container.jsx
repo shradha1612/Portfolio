@@ -13,7 +13,7 @@ function Home() {
        <div className="homepage" id="main">
            {/* <div className="parallaxfix"> */}
 
-       <img src={slide}/>
+       <img src={slide} alt="slide"/>
            {/* </div> */}
            {/* <Particles 
                 params={{
