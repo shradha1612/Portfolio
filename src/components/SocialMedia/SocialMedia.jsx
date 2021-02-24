@@ -8,7 +8,7 @@ const socialMediaLinks = {
     gmail: 'parkhishradha@gmail.com',
     gitlab: 'https://gitlab.com/Shradha1612',
     medium: 'https://codewebtech.medium.com/',
-    instagram:"https://instagram.com/@codewebtech/",
+    instagram:"https://instagram.com/codewebtech/",
     twitter:"https://twitter.com/@codewebtech_",
     // Instagram and Twitter are also supported in the links!
     display: true, // Set true to display this section, defaults to false
