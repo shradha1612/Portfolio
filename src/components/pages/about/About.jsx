@@ -50,7 +50,7 @@ const About = () => {
                                     <Button variant="flat" className="info">Connect with me</Button></a>
                             </div>
                             <div>
-                                <a href="https://www.linkedin.com/in/shradha-parkhi-06054b191/" className="m-2" ><Button variant="dark">Download my resume</Button></a>
+                                <a href="https://drive.google.com/file/d/1cMxyBrIby5as5NjEZh09IVEv_IzPPvlF/view?usp=sharing" className="m-2" ><Button variant="dark">Download my resume</Button></a>
                             </div>
                             </Col>
                         </Row>
